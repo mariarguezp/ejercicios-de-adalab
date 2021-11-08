@@ -1,0 +1,10 @@
+.div-lorem {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* display inline: el texto se coloca en línea, un párrafo a continuación del otro.
+  display block: el texto se coloca en bloque, en columna, dentro del tamaño de indicado.
+  display inline-block: el texto se coloca en 3 columnas del tamaño indicado unas junto a otras
+  display none: el texto desaparece, se oculta */

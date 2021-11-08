@@ -1,0 +1,9 @@
+/* el asterisco es un selector que afecta a todas las etiquetas de la web */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}

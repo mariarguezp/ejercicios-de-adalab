@@ -1,0 +1,15 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+.foto-morsas {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px red solid;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* al cambiar el modelo de caja a border-box su relleno se ha ajustado al borde, incluyendo así el relleno del padding dentro del borde*/

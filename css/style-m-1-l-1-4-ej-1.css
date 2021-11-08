@@ -1,0 +1,26 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  /* En este caso el eje principal es el vertical*/
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  border: 5px chartreuse solid;
+}
+.container-1 {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+}
+.imagen {
+  width: 200px;
+  height: 100px;
+  background-image: url("../images/200x100px.jpg");
+}

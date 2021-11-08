@@ -1,0 +1,7 @@
+.container {
+    width: 50%;
+    height: 50vh;
+    background-color: aliceblue;
+}
+/*en una web siempre trataremos de evitar generar un scroll horizontal, para ello en width usaremos medidas en %, por lo general*/
+/*si el body no tiene un alto definido,su alto es "infinito", por lo que si queremos dar a un contenedor un alto concreto, deberemos usar una medida concreta en px o vh. % no serviría porque se basa en el tamaño del contenedor padre, en este caso el body*/
