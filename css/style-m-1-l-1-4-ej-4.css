@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    height: 400vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
+}
+.item {
+    width: 40%;
+    border: 1px black solid;
+    padding: 20px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+img {
+    width: 100%;
+}
+.destacada {
+    order: -1;
+}
