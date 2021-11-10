@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+/*quitamos el margin del body para que el header llegue hasta los bordes*/
+
+.header {
+    background-color: #333;
+    color: #DDD;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*display flex y todas sus propiedades van dentro del elemento padre, en este caso header*/
+.main_title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.menu {
+    color: white;
+    list-style: none;
+    display: flex;
+    /*position: fixed;
+    width: 100%;
+    box-sizing: border-box;*/
+}
+.menu_list {
+    display: flex;
+}
+/*para poner los elementos del menú en línea. También se puede hacer poniendo a los items del menú un display: inline*/
+li {
+    margin: 10px;
+}
+/*
+.main {
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+.article {
+    display: flex;
+    flex-wrap: wrap;
+}*/

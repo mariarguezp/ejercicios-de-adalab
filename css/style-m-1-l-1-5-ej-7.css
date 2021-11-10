@@ -1,0 +1,9 @@
+.texto {
+    width: 86%;
+    max-width: 600px;
+    background-color: rosybrown;
+}
+body {
+    display: flex;
+    justify-content: center;
+}

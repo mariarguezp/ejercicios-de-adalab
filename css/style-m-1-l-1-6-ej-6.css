@@ -1,0 +1,38 @@
+.container {
+    margin: 0 20px;
+}
+.main_title {
+    font-weight: bold;
+    font-size: 32px; 
+}
+.main_text {
+    font-size: 18px;
+    line-height: 24px;
+}
+@media all and (min-width: 768px) {
+    .container {
+        margin: 30px 40px 0;
+    }
+    .main_title {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .main_text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media all and (min-width: 1140px) {
+    .container {
+        margin: 190px auto 0;
+        max-width: 750px;
+    }
+    .main_title {
+        font-weight: bold;
+        font-size: 42px;
+    }
+    .main_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

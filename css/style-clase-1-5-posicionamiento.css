@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    background-color: lavender;
+    width: 100%;
+}
+.menu {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+.item {
+    display: inline-block;
+}
+p {
+    padding-bottom: 10px;
+}
+.cookies {
+    background-color: honeydew;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.flotante {
+    transform: scale(0.3) translate(99%, 0px);
+    background-color: hotpink;
+}
+/*aunque usemos scale para reducir el tamaño de la imagen sigue ocupando el mismo espacio*/
