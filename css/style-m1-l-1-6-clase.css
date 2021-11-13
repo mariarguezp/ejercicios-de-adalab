@@ -1,0 +1,41 @@
+:root {
+    font-size: 14px;
+}
+
+.container {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+.hijo {
+    background-color: blueviolet;
+    margin: 10px;
+    background-image: url(../images/200x100px.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .hijo {
+        width: 45%; /*para que cuando la ventana sea pequeña, las columnas/cajas se dispongan de dos en dos (necesario tb para ello el flex-wrap: wrap)*/
+        font-size: 2rem;
+    }
+}
+/*en el breakpoint solo ponemos las propiedades o atributos que queremos que cambien, por ejemplo aquí cambiará la flex-direction pero no el display: flex, por eso solo ponemos la flex-direction*/
+
+@media all and (min-width: 1024px) {
+    .container {
+        flex-wrap: nowrap;
+        /* para las columnas se dispongan en fila. Otra opción: 
+        .hijo {
+            width: 23px;
+        }*/
+    }
+    .hijo {
+        background-image: url("../images/pexels-photo-5863274.jpeg");
+    }
+}
