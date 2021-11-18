@@ -1,0 +1,37 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-gap: 5px;
+}
+
+.item {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header {
+    grid-column: span 12;
+    background-color: peachpuff;
+}
+
+.menu {
+    grid-column: span 4;
+    background-color: blueviolet;
+}
+
+.content {
+    grid-column: span 8;
+    background-color: palevioletred;
+}
+
+.footer {
+    grid-column: span 12;
+    background-color: powderblue;
+}
