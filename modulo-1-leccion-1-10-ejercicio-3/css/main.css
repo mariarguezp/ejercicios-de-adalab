@@ -1,0 +1,7 @@
+.form {
+    background: linear-gradient(to bottom, lightgray 0%, lightslategrey 100%);
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px 40px;
+}

@@ -1,0 +1,23 @@
+.header {
+  background-color: aquamarine;
+  height: 75px; }
+  @media all and (min-width: 768px) {
+    .header {
+      height: 100px; } }
+  @media all and (min-width: 1280px) {
+    .header {
+      height: 110px; } }
+
+.section {
+  background-color: lightpink;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button {
+  background-color: red;
+  border-radius: 5px;
+  height: 45px; }
+
+/*# sourceMappingURL=main.css.map */
