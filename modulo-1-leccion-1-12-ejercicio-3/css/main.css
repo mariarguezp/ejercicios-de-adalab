@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.popup {
+    background-color: azure;
+    width: 500px;
+    height: 300px;
+    border: cadetblue 1px solid;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px cornflowerblue;
+    color: darkcyan;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100vh);
+    transition: transform linear 10s;
+}
+
+.main:hover .popup{
+    transform: translateY(20vh);
+}
